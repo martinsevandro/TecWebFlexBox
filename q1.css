@@ -1,0 +1,143 @@
+/* questao 1*/
+.div1{
+    display: flex;
+    width: auto;    
+    height: 400px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: end;
+
+    border: 1px solid black;
+    margin-bottom: 5px;
+}
+.divs1{
+    display: flex;
+    height: 25%;
+    width: 15%;
+    margin: 5px;
+    
+    justify-content: center;
+    align-items: center;
+    
+    background-color: lightskyblue;
+}
+
+/* questao 2*/
+.div2{
+    display: flex;    
+    flex-direction: row;
+    justify-content: flex-start;
+    
+    border: 1px solid black;
+    width: auto;    
+    height: 400px;
+    margin-bottom: 5px;    
+
+}
+.divs2{
+    display: flex;
+    height: 25%;
+    width: 15%;
+    margin: 5px;
+    
+    justify-content: center;
+    align-items: center;
+    
+    background-color: lightskyblue;
+}
+
+/* questao 3*/
+.div3{
+    display: flex;    
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    
+    border: 1px solid black;
+    width: auto;    
+    height: 400px;
+    margin-bottom: 5px;    
+
+}
+.divs3{
+    display: flex;
+    height: 25%;
+    width: 15%;
+    margin: 5px;
+    
+    justify-content: center;
+    align-items: center;
+    
+    background-color: lightskyblue;
+}
+
+/* questao 4*/
+.div4{
+    display: flex;    
+    flex-direction: row;
+    justify-content: center;
+    
+    border: 1px solid black;
+    width: auto;    
+    height: 400px;
+    margin-bottom: 5px;    
+
+}
+.divs4{
+    display: flex;
+    height: 25%;
+    width: 15%;
+    margin: 5px;
+    
+    justify-content: center;
+    align-items: center;
+    
+    background-color: lightskyblue;
+}
+
+/* questao 5*/
+.div5{
+    display: flex;    
+    flex-wrap: wrap;   
+    border: 1px solid black;
+    width: auto;    
+    height: 400px;
+    margin-bottom: 5px;    
+ 
+}
+.divs5{
+    display: flex;
+    height: 25%;
+    width: 22%;
+    margin: 5px;
+    
+    justify-content: center;
+    align-items: center;
+    
+    background-color: lightskyblue;
+}
+
+/* questao 6*/
+.div6{
+    display: flex;    
+    
+    flex-flow: row-reverse wrap;
+    justify-content: left;
+    
+    
+    border: 1px solid black;
+    width: auto;    
+    height: 400px;
+    margin-bottom: 5px;
+ 
+}
+.divs6{
+    display: flex;
+    height: 25%;
+    width: 22%;
+    margin: 5px;
+    
+    justify-content: center;
+    align-items: center;
+    
+    background-color: lightskyblue;
+}
