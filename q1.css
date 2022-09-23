@@ -1,12 +1,14 @@
 /* questao 1*/
 .div1{
-    display: flex;
-    width: auto;    
-    height: 400px;
+    display: flex;    
     flex-direction: column;
     justify-content: flex-start;
     align-items: end;
 
+
+    /* tamanho da janela - repetindo em todas as divs */
+    width: auto;    
+    height: 400px;
     border: 1px solid black;
     margin-bottom: 5px;
 }
@@ -98,6 +100,7 @@
 .div5{
     display: flex;    
     flex-wrap: wrap;   
+
     border: 1px solid black;
     width: auto;    
     height: 400px;
@@ -120,15 +123,13 @@
 .div6{
     display: flex;    
     
-    flex-flow: row-reverse wrap;
-    justify-content: left;
+    flex-wrap: wrap;       
     
-    
+
     border: 1px solid black;
     width: auto;    
     height: 400px;
-    margin-bottom: 5px;
- 
+    margin-bottom: 5px; 
 }
 .divs6{
     display: flex;
@@ -136,8 +137,381 @@
     width: 22%;
     margin: 5px;
     
+    order: 2;
+    justify-content: center;
+    align-items: center;    
+    background-color: lightskyblue;
+}
+#order1{
+    order: 4;
+}
+#order2{
+    order: 1;
+}
+#order3{
+    order: -1;
+}
+#order4{
+    order: -2;
+}
+#order5{
+    order: -4;
+}
+
+/* questao 7*/
+.div7{
+    display: flex;    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    width: auto;    
+    height: 400px;
+    margin-bottom: 5px;
+}
+.divsup{
+    display: flex;  
+    justify-content: space-around;
+    align-items: flex-start;
+
+    height: 50%;
+    width: 100%;
+}
+
+.divinf{
+    display: flex;  
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 50%;
+    width: 100%;
+}
+
+.divs7{
+    display: flex;
+    height: 50%;
+    width: 20%;
+    margin: 5px;
+    
     justify-content: center;
     align-items: center;
     
     background-color: lightskyblue;
+}
+
+/* questao 8*/
+.div8{
+    display: flex;    
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    border: 1px solid black;
+    width: auto;    
+    height: 400px;
+    margin-bottom: 5px;    
+
+}
+.divs8{
+    display: flex;
+    height: 25%;
+    width: 15%;
+    margin: 5px;
+    
+    justify-content: center;
+    align-items: center;
+    
+    background-color: lightskyblue;
+}
+
+/* questao 9*/
+.div9{
+    display: flex;    
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    border: 1px solid black;
+    width: 80vw;    
+    height: 60vh;
+    margin: 0 auto 5px;
+}
+.divs9{
+    display: flex;
+    height: 25%;
+    width: 30%;
+    margin: 5px;
+    
+    justify-content: center;
+    align-items: center;
+    
+    background-color: lightskyblue;
+}
+#div91{
+    height: 40%;
+}
+#div93{
+    height: 60%;
+}
+
+
+/* questao 10*/
+.div10{
+    display: flex;    
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    border: 1px solid black;
+    width: 80vw;    
+    height: 60vh;
+    margin: 0 auto 5px;
+    padding: 5px 0;
+}
+.divs10{
+    display: flex;
+    height: 100%;
+    width: 30%;
+    margin: 5px;
+    
+    justify-content: center;
+    align-items: center;
+    
+    background-color: lightskyblue;
+}
+
+
+/* questao 11*/
+.div11{
+    display: flex;    
+    flex-direction: row;
+    justify-content: flex-start;
+    
+    border: 1px solid black;
+    width: auto;    
+    height: 400px;
+    margin-bottom: 5px;    
+
+}
+.divs11{
+    display: flex;
+    height: 25%;
+    width: 15%;
+    margin: 5px;
+    
+    justify-content: center;
+    align-items: center;
+    
+    background-color: lightskyblue;
+}
+#div112{
+    background-color: red;
+}
+
+/* questao 12*/
+.div12{
+    display: flex;    
+    flex-direction: row;
+    justify-content: flex-start;
+    
+    border: 1px solid black;
+    width: auto;    
+    height: 400px;
+    margin-bottom: 5px;    
+
+}
+.divs12{
+    display: flex;
+    height: 25%;
+    width: 15%;
+    margin: 5px;
+    
+    justify-content: center;
+    align-items: center;
+    
+    background-color: lightskyblue;
+}
+#div122{
+    background-color: red;
+    order: -1;
+}
+
+/* questao 13*/
+.div13{
+    display: flex;    
+    flex-direction: row;
+    justify-content: flex-start;
+    
+    border: 1px solid black;
+    width: auto;    
+    height: 400px;
+    margin-bottom: 5px;    
+
+}
+.divs13{
+    display: flex;
+    height: 25%;
+    width: 15%;
+    margin: 5px;
+    
+    justify-content: center;
+    align-items: center;
+    
+    background-color: lightskyblue;
+}
+#div132{
+    background-color: red;
+    order: 2;
+}
+#div133{
+    order: -1;
+}
+#div134{
+    order: 2;
+}
+
+/* questao 14*/
+.div14{
+    display: flex;    
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    border: 1px solid black;
+    width: auto;    
+    height: 400px;
+    margin-bottom: 5px;    
+
+}
+.divs14{
+    display: flex;
+    height: 25%;
+    width: 15%;
+    margin: 5px;
+    
+    justify-content: center;
+    align-items: center;
+    
+    background-color: lightskyblue;
+}
+#div142{
+    background-color: red;
+    align-self: flex-start;
+}
+
+/* questao 15*/
+.div15{
+    display: flex;    
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    border: 1px solid black;
+    width: auto;    
+    height: 400px;
+    margin-bottom: 5px;    
+
+}
+.divs15{
+    display: flex;
+    height: 25%;
+    width: 15%;
+    margin: 5px;
+    
+    justify-content: center;
+    align-items: center;
+    
+    background-color: lightskyblue;
+}
+#div152{
+    background-color: red;
+    align-self: flex-end;
+}
+
+/* questao 16*/
+.div16{
+    display: flex;    
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    border: 1px solid black;
+    width: auto;    
+    height: 400px;
+    margin-bottom: 5px;    
+
+}
+.divs16{
+    display: flex;
+    height: 25%;
+    width: 15%;
+    margin: 5px;
+    
+    justify-content: center;
+    align-items: center;
+    
+    background-color: lightskyblue;
+}
+#div162{
+    background-color: red;
+    height: 100%;
+}
+
+/* questao 17*/
+.div17{
+    display: flex;    
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    border: 1px solid black;
+    width: auto;    
+    height: 400px;
+    margin-bottom: 5px;    
+
+}
+.divs17{
+    display: flex;
+    height: 25%;
+    width: 15%;
+    margin: 5px;
+    
+    justify-content: center;
+    align-items: center;
+    
+    background-color: lightskyblue;
+}
+#div172{
+    background-color: red;
+    width: 50%;
+}
+
+/* questao 18*/
+.div18{
+    display: flex;    
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    border: 1px solid black;
+    width: auto;    
+    height: 400px;
+    margin-bottom: 5px;    
+
+}
+.divs18{
+    display: flex; 
+    height: 25%;
+    width: 15%;
+    margin: 5px;
+    
+    justify-content: center;
+    align-items: center;
+    
+    background-color: lightskyblue;
+}
+#div182{
+    width: 20%;
+}
+#div181, #div183{
+    width: 40%;
 }
